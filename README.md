@@ -1,20 +1,46 @@
-# Building Moonlit, Our Fashion-Forward E-Commerce App
+# MoonLit — E-Commerce Mobile App
 
- "Moonlit”, Inspired by the idea that just as moonlight reaches far and wide, our app would bring whatever you’re looking for, no matter the distance, right to your fingertips. Using Firebase, Flutter, and Firestore Database, we built Moonlit — a user-friendly app that delivers an exceptional shopping experience.
+A cross-platform fashion e-commerce mobile application built with Flutter, Firebase Auth, and Cloud Firestore.
 
-## Installation
+> **Project Context:** This repository is my working copy of a collaborative team project.  
+> **Original Team Repository:** [ishaanj26/ecom_app](https://github.com/ishaanj26/ecom_app)
 
-To run MoonLit App locally, follow these steps:
+---
 
-1. Clone the repository: `git clone https://github.com/ishaanj26/ecom_app`
-2. Navigate to the project directory: `cd ecom_app_01`
-3. Install dependencies: `flutter pub get`
-4. Run the app: `flutter run`
+## 👥 Team & Roles
 
-## Contributions
+- **Ishaan Jain** ([GitHub](https://github.com/ishaanj26))
+- **Rishab Negi** ([GitHub](https://github.com/RISHAB-999))
+- **Tarun Pandore** ([GitHub](https://github.com/tarunpandore)) — **Role:** Frontend UI screens (team project), including customer shopping flow and store views (`store_home.dart`, `store_cart.dart`, `store_product.dart`, `store_favorite.dart`).
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+---
 
-## Contributors 
+## 🚀 Getting Started
 
-Ishaan Jain | Rishab Negi | Tarun Pandore 
+### Prerequisites
+- Flutter SDK (3.x or higher)
+- Android Studio / Xcode / VS Code with Flutter extension
+
+### Installation & Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tarunpandore/moonlit-ecommerce.git
+   cd moonlit-ecommerce/MoonLit
+   ```
+
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the application:
+   ```bash
+   # Run with optional custom Razorpay test key via dart-define
+   flutter run --dart-define=RAZORPAY_KEY_ID=your_razorpay_key_id
+   ```
+
+---
+
+## 📸 Screenshots
+*(Screenshots will be added once finalized).*
