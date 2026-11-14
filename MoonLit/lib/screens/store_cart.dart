@@ -218,8 +218,12 @@ class _CheckOutBoxState extends State<CheckOutBox> {
 
   void openCheckout(amount) async {
     amount = amount * 100;
+    const String razorpayKey = String.fromEnvironment(
+      'RAZORPAY_KEY_ID',
+      defaultValue: 'rzp_test_B93NMv5P48O7Ml',
+    );
     var options = {
-      'key': 'rzp_test_B93NMv5P48O7Ml',
+      'key': razorpayKey,
       'amount': amount,
       'name': 'Test',
       "prefil": {"contact": '8920800490', 'email': 'ishaanj2612@gmail.com'},
